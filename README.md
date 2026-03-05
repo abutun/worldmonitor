@@ -2,12 +2,12 @@
 
 **Real-time global intelligence dashboard** — AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.
 
-[![GitHub stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=social)](https://github.com/koala73/worldmonitor/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/koala73/worldmonitor?style=social)](https://github.com/koala73/worldmonitor/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/abutun/worldmonitor?style=social)](https://github.com/abutun/worldmonitor/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/abutun/worldmonitor?style=social)](https://github.com/abutun/worldmonitor/network/members)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Last commit](https://img.shields.io/github/last-commit/koala73/worldmonitor)](https://github.com/koala73/worldmonitor/commits/main)
-[![Latest release](https://img.shields.io/github/v/release/koala73/worldmonitor?style=flat)](https://github.com/koala73/worldmonitor/releases/latest)
+[![Last commit](https://img.shields.io/github/last-commit/abutun/worldmonitor)](https://github.com/abutun/worldmonitor/commits/main)
+[![Latest release](https://img.shields.io/github/v/release/abutun/worldmonitor?style=flat)](https://github.com/abutun/worldmonitor/releases/latest)
 
 <p align="center">
   <a href="https://monitor.cosmicmeta.ai"><img src="https://img.shields.io/badge/Web_App-cosmicmeta.ai-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web App"></a>&nbsp;
@@ -25,7 +25,7 @@
 
 <p align="center">
   <a href="./docs/DOCUMENTATION.md"><strong>Full Documentation</strong></a> &nbsp;·&nbsp;
-  <a href="https://github.com/koala73/worldmonitor/releases/latest"><strong>All Releases</strong></a>
+  <a href="https://github.com/abutun/worldmonitor/releases/latest"><strong>All Releases</strong></a>
 </p>
 
 ![World Monitor Dashboard](new-world-monitor.png)
@@ -1831,7 +1831,7 @@ Transactions are sampled at 10% to balance observability with cost. Release trac
 
 ```bash
 # Clone and run
-git clone https://github.com/koala73/worldmonitor.git
+git clone https://github.com/abutun/worldmonitor.git
 cd worldmonitor
 npm install
 vercel dev       # Runs frontend + all 60+ API edge functions
@@ -2183,7 +2183,7 @@ GNU Affero General Public License v3.0 (AGPL-3.0) — see [LICENSE](LICENSE) for
 
 ## Author
 
-**Elie Habib** — [GitHub](https://github.com/koala73)
+**Elie Habib** — [GitHub](https://github.com/abutun)
 
 ---
 
@@ -2229,9 +2229,9 @@ If you discover a vulnerability, please see our [Security Policy](./SECURITY.md)
 
 ## Star History
 
-<a href="https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date">
+<a href="https://api.star-history.com/svg?repos=abutun/worldmonitor&type=Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date&type=Date&theme=dark" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=abutun/worldmonitor&type=Date&type=Date&theme=dark" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=abutun/worldmonitor&type=Date&type=Date" />
  </picture>
 </a>

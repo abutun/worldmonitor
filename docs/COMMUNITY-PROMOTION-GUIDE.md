@@ -19,7 +19,7 @@ Thank you for helping spread the word about World Monitor! This guide provides t
 | [cosmicmeta.ai](https://monitor.cosmicmeta.ai) | Main dashboard — geopolitics, military, conflicts |
 | [tech.cosmicmeta.ai](https://tech.cosmicmeta.ai) | Tech variant — startups, AI/ML, cybersecurity |
 | [finance.cosmicmeta.ai](https://finance.cosmicmeta.ai) | Finance variant — markets, exchanges, central banks |
-| [GitHub](https://github.com/koala73/worldmonitor) | Source code (AGPL-3.0) |
+| [GitHub](https://github.com/abutun/worldmonitor) | Source code (AGPL-3.0) |
 
 ---
 
