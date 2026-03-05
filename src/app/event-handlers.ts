@@ -404,7 +404,7 @@ export class EventHandlerManager implements AppModule {
             window.location.reload();
           } else {
             const hosts: Record<string, string> = {
-              full: 'https://cosmicmeta.ai',
+              full: 'https://monitor.cosmicmeta.ai',
               tech: 'https://tech.cosmicmeta.ai',
               finance: 'https://finance.cosmicmeta.ai',
               happy: 'https://happy.cosmicmeta.ai',

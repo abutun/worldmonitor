@@ -40,7 +40,7 @@ const VARIANT_OG: Record<string, { title: string; description: string; image: st
 };
 
 const ALLOWED_HOSTS = new Set([
-  'cosmicmeta.ai',
+  'monitor.cosmicmeta.ai',
   ...Object.keys(VARIANT_HOST_MAP),
 ]);
 const VERCEL_PREVIEW_RE = /^[a-z0-9-]+-[a-z0-9]{8,}\.vercel\.app$/;

@@ -174,7 +174,7 @@ export function getProviderCredentials(provider: string): ProviderCredentials | 
       headers: {
         'Authorization': `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
-        'HTTP-Referer': 'https://cosmicmeta.ai',
+        'HTTP-Referer': 'https://monitor.cosmicmeta.ai',
         'X-Title': 'WorldMonitor',
       },
     };

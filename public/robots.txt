@@ -4,7 +4,7 @@ Allow: /
 Disallow: /api/
 Disallow: /tests/
 
-Sitemap: https://cosmicmeta.ai/sitemap.xml
+Sitemap: https://monitor.cosmicmeta.ai/sitemap.xml
 
 # Allow social media bots for OG previews
 User-agent: Twitterbot

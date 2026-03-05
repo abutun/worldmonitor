@@ -53,8 +53,8 @@ test.describe('desktop runtime routing guardrails', () => {
           hasTauriGlobals: false,
           userAgent: 'Mozilla/5.0',
           locationProtocol: 'https:',
-          locationHost: 'cosmicmeta.ai',
-          locationOrigin: 'https://cosmicmeta.ai',
+          locationHost: 'monitor.cosmicmeta.ai',
+          locationOrigin: 'https://monitor.cosmicmeta.ai',
         }),
       };
     });
@@ -376,8 +376,8 @@ test.describe('desktop runtime routing guardrails', () => {
       }
     });
 
-    expect(result.macArm).toBe('https://cosmicmeta.ai/api/download?platform=macos-arm64&variant=full');
-    expect(result.windowsX64).toBe('https://cosmicmeta.ai/api/download?platform=windows-exe&variant=full');
+    expect(result.macArm).toBe('https://monitor.cosmicmeta.ai/api/download?platform=macos-arm64&variant=full');
+    expect(result.windowsX64).toBe('https://monitor.cosmicmeta.ai/api/download?platform=windows-exe&variant=full');
     expect(result.linuxFallback).toBe('https://github.com/koala73/worldmonitor/releases/latest');
   });
 

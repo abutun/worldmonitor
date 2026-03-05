@@ -667,8 +667,8 @@ fn build_app_menu(handle: &AppHandle) -> tauri::Result<Menu<tauri::Wry>> {
         name: Some("World Monitor".into()),
         version: Some(env!("CARGO_PKG_VERSION").into()),
         copyright: Some("\u{00a9} 2025 Elie Habib".into()),
-        website: Some("https://cosmicmeta.ai".into()),
-        website_label: Some("cosmicmeta.ai".into()),
+        website: Some("https://monitor.cosmicmeta.ai".into()),
+        website_label: Some("monitor.cosmicmeta.ai".into()),
         ..Default::default()
     };
     let about_item =

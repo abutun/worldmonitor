@@ -3,7 +3,7 @@ import test from 'node:test';
 import handler from './embed.js';
 
 function makeRequest(query = '') {
-  return new Request(`https://cosmicmeta.ai/api/youtube/embed${query}`);
+  return new Request(`https://monitor.cosmicmeta.ai/api/youtube/embed${query}`);
 }
 
 test('rejects missing or invalid video ids', async () => {
@@ -24,7 +24,7 @@ test('returns embeddable html for valid video id', async () => {
   assert.equal(html.includes("host:'https://www.youtube.com'"), true);
   assert.equal(html.includes('autoplay:0'), true);
   assert.equal(html.includes('mute:1'), true);
-  assert.equal(html.includes('origin:"https://cosmicmeta.ai"'), true);
+  assert.equal(html.includes('origin:"https://monitor.cosmicmeta.ai"'), true);
   assert.equal(html.includes('postMessage'), true);
 });
 
@@ -35,7 +35,7 @@ test('accepts custom origin parameter', async () => {
 });
 
 test('uses dedicated parentOrigin for iframe postMessage target', async () => {
-  const response = await handler(makeRequest('?videoId=iEpJwprxDdk&origin=https://cosmicmeta.ai&parentOrigin=https://tauri.localhost'));
+  const response = await handler(makeRequest('?videoId=iEpJwprxDdk&origin=https://monitor.cosmicmeta.ai&parentOrigin=https://tauri.localhost'));
   const html = await response.text();
   assert.match(html, /playerVars:\{[^}]*origin:"https:\/\/cosmicmeta\.ai"/);
   assert.match(html, /parentOrigin="https:\/\/tauri\.localhost"/);
@@ -43,7 +43,7 @@ test('uses dedicated parentOrigin for iframe postMessage target', async () => {
 });
 
 test('does not accept wildcard parentOrigin query parameter', async () => {
-  const response = await handler(makeRequest('?videoId=iEpJwprxDdk&origin=https://cosmicmeta.ai&parentOrigin=*'));
+  const response = await handler(makeRequest('?videoId=iEpJwprxDdk&origin=https://monitor.cosmicmeta.ai&parentOrigin=*'));
   const html = await response.text();
   assert.equal(html.includes('parentOrigin="*"'), false);
   assert.match(html, /parentOrigin="https:\/\/cosmicmeta\.ai"/);

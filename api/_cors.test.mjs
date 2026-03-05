@@ -7,7 +7,7 @@ function makeRequest(origin) {
   if (origin !== null) {
     headers.set('origin', origin);
   }
-  return new Request('https://cosmicmeta.ai/api/test', { headers });
+  return new Request('https://monitor.cosmicmeta.ai/api/test', { headers });
 }
 
 test('allows desktop Tauri origins', () => {
@@ -31,7 +31,7 @@ test('rejects unrelated external origins', () => {
   const req = makeRequest('https://evil.example.com');
   assert.equal(isDisallowedOrigin(req), true);
   const cors = getCorsHeaders(req);
-  assert.equal(cors['Access-Control-Allow-Origin'], 'https://cosmicmeta.ai');
+  assert.equal(cors['Access-Control-Allow-Origin'], 'https://monitor.cosmicmeta.ai');
 });
 
 test('requests without origin remain allowed', () => {

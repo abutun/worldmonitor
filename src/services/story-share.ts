@@ -14,7 +14,7 @@ export function generateStoryDeepLink(
   });
   if (score !== undefined) params.set('s', String(score));
   if (level) params.set('l', level);
-  return `https://cosmicmeta.ai/api/story?${params.toString()}`;
+  return `https://monitor.cosmicmeta.ai/api/story?${params.toString()}`;
 }
 
 // Parse deep link parameters

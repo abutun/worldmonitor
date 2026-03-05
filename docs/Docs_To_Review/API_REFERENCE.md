@@ -2,7 +2,7 @@
 
 > Comprehensive reference for all Vercel Edge Function endpoints powering the World Monitor intelligence dashboard.
 
-**Base URL**: All endpoints are relative to `/api/` (e.g., `https://cosmicmeta.ai/api/earthquakes`).
+**Base URL**: All endpoints are relative to `/api/` (e.g., `https://monitor.cosmicmeta.ai/api/earthquakes`).
 
 ---
 
@@ -135,7 +135,7 @@ Eight regex patterns control access:
 
 | # | Pattern | Matches |
 |---|---------|---------|
-| 1 | `cosmicmeta\.ai$` | `https://cosmicmeta.ai` |
+| 1 | `cosmicmeta\.ai$` | `https://monitor.cosmicmeta.ai` |
 | 2 | `\.cosmicmeta\.ai$` | `https://*.cosmicmeta.ai` |
 | 3 | `\.vercel\.app$` | Vercel preview deploys |
 | 4 | `localhost(:\d+)?$` | `http://localhost:*` |

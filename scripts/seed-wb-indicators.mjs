@@ -106,7 +106,7 @@ async function fetchWithRetry(url, attempt = 1) {
   try {
     const resp = await fetch(url, {
       headers: {
-        'User-Agent': 'WorldMonitor-Seed/1.0 (https://cosmicmeta.ai)',
+        'User-Agent': 'WorldMonitor-Seed/1.0 (https://monitor.cosmicmeta.ai)',
         'Accept': 'application/json',
       },
       signal: AbortSignal.timeout(30_000),

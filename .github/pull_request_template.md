@@ -25,7 +25,7 @@
 
 ## Checklist
 
-- [ ] Tested on [cosmicmeta.ai](https://cosmicmeta.ai) variant
+- [ ] Tested on [cosmicmeta.ai](https://monitor.cosmicmeta.ai) variant
 - [ ] Tested on [tech.cosmicmeta.ai](https://tech.cosmicmeta.ai) variant (if applicable)
 - [ ] New RSS feed domains added to `api/rss-proxy.js` allowlist (if adding feeds)
 - [ ] No API keys or secrets committed

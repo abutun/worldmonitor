@@ -120,7 +120,7 @@ export function getRemoteApiBaseUrl(): string {
   if (fromHosts) return fromHosts;
 
   // Desktop builds may not set VITE_WS_API_URL; default to production.
-  if (isDesktopRuntime()) return 'https://cosmicmeta.ai';
+  if (isDesktopRuntime()) return 'https://monitor.cosmicmeta.ai';
   return '';
 }
 
@@ -147,7 +147,7 @@ function extractHostnames(...urls: (string | undefined)[]): string[] {
 }
 
 const APP_HOSTS = new Set([
-  'cosmicmeta.ai',
+  'monitor.cosmicmeta.ai',
   'www.cosmicmeta.ai',
   'tech.cosmicmeta.ai',
   'api.cosmicmeta.ai',

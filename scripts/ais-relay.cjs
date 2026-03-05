@@ -4037,7 +4037,7 @@ function handleWorldBankRequest(req, res) {
   const request = https.get(wbUrl, {
     headers: {
       'Accept': 'application/json',
-      'User-Agent': 'Mozilla/5.0 (compatible; WorldMonitor/1.0; +https://cosmicmeta.ai)',
+      'User-Agent': 'Mozilla/5.0 (compatible; WorldMonitor/1.0; +https://monitor.cosmicmeta.ai)',
     },
     timeout: 15000,
   }, (response) => {
@@ -4725,7 +4725,7 @@ function handleNotamProxyRequest(req, res) {
 
 // CORS origin allowlist — only our domains can use this relay
 const ALLOWED_ORIGINS = [
-  'https://cosmicmeta.ai',
+  'https://monitor.cosmicmeta.ai',
   'https://tech.cosmicmeta.ai',
   'https://finance.cosmicmeta.ai',
   'http://localhost:5173',   // Vite dev

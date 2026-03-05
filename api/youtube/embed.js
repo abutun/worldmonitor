@@ -38,7 +38,7 @@ function sanitizeAllowedOrigin(raw, fallback, allowList = ALLOWED_ORIGINS) {
 }
 
 function sanitizeOrigin(raw) {
-  return sanitizeAllowedOrigin(raw, 'https://cosmicmeta.ai', ALLOWED_ORIGINS);
+  return sanitizeAllowedOrigin(raw, 'https://monitor.cosmicmeta.ai', ALLOWED_ORIGINS);
 }
 
 function sanitizeParentOrigin(raw, fallback) {

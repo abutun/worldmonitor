@@ -133,7 +133,7 @@ export class PanelLayoutManager implements AppModule {
         const vHref = (v: string, prod: string) => local || SITE_VARIANT === v ? '#' : prod;
         const vTarget = (_v: string) => '';
         return `
-            <a href="${vHref('full', 'https://cosmicmeta.ai')}"
+            <a href="${vHref('full', 'https://monitor.cosmicmeta.ai')}"
                class="variant-option ${SITE_VARIANT === 'full' ? 'active' : ''}"
                data-variant="full"
                ${vTarget('full')}

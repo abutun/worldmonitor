@@ -15,7 +15,7 @@ function isAllowedOrigin(origin) {
 
 export function getCorsHeaders(req, methods = 'GET, OPTIONS') {
   const origin = req.headers.get('origin') || '';
-  const allowOrigin = isAllowedOrigin(origin) ? origin : 'https://cosmicmeta.ai';
+  const allowOrigin = isAllowedOrigin(origin) ? origin : 'https://monitor.cosmicmeta.ai';
   return {
     'Access-Control-Allow-Origin': allowOrigin,
     'Access-Control-Allow-Methods': methods,

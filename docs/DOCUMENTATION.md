@@ -2,7 +2,7 @@
 
 AI-powered real-time global intelligence dashboard aggregating news, markets, geopolitical data, and infrastructure monitoring into a unified situation awareness interface.
 
-🌐 **[Live Demo: cosmicmeta.ai](https://cosmicmeta.ai)** | 💻 **[Tech Variant: tech.cosmicmeta.ai](https://tech.cosmicmeta.ai)**
+🌐 **[Live Demo: cosmicmeta.ai](https://monitor.cosmicmeta.ai)** | 💻 **[Tech Variant: tech.cosmicmeta.ai](https://tech.cosmicmeta.ai)**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
@@ -17,7 +17,7 @@ World Monitor runs two specialized variants from a single codebase, each optimiz
 
 | Variant | URL | Focus |
 |---------|-----|-------|
-| **🌍 World Monitor** | [cosmicmeta.ai](https://cosmicmeta.ai) | Geopolitical intelligence, military tracking, conflict monitoring, infrastructure security |
+| **🌍 World Monitor** | [cosmicmeta.ai](https://monitor.cosmicmeta.ai) | Geopolitical intelligence, military tracking, conflict monitoring, infrastructure security |
 | **💻 Tech Monitor** | [tech.cosmicmeta.ai](https://tech.cosmicmeta.ai) | Technology sector intelligence, AI/startup ecosystems, cloud infrastructure, tech events |
 
 A compact **variant switcher** in the header allows seamless navigation between variants while preserving your map position and panel configuration.

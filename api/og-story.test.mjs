@@ -4,8 +4,8 @@ import handler from './og-story.js';
 
 function renderOgStory(query = '') {
   const req = {
-    url: `https://cosmicmeta.ai/api/og-story${query ? `?${query}` : ''}`,
-    headers: { host: 'cosmicmeta.ai' },
+    url: `https://monitor.cosmicmeta.ai/api/og-story${query ? `?${query}` : ''}`,
+    headers: { host: 'monitor.cosmicmeta.ai' },
   };
 
   let statusCode = 0;

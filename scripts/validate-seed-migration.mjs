@@ -14,7 +14,7 @@ const BASE_URL = process.argv.includes('--base-url')
   ? process.argv[process.argv.indexOf('--base-url') + 1]
   : 'https://api.cosmicmeta.ai';
 
-const ORIGIN = 'https://cosmicmeta.ai';
+const ORIGIN = 'https://monitor.cosmicmeta.ai';
 
 // ========================================================================
 // Test definitions — one per migrated handler

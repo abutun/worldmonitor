@@ -10,7 +10,7 @@ The project is built with TypeScript, Vite, MapLibre GL JS, deck.gl, D3.js, and 
 
 ## Live Instances
 
-- [World Monitor](https://cosmicmeta.ai): Geopolitics, military, conflicts, infrastructure — ~25 RSS categories, 44 panels, military bases, nuclear facilities, hotspots
+- [World Monitor](https://monitor.cosmicmeta.ai): Geopolitics, military, conflicts, infrastructure — ~25 RSS categories, 44 panels, military bases, nuclear facilities, hotspots
 - [Tech Monitor](https://tech.cosmicmeta.ai): Startups, AI/ML, cloud, cybersecurity — ~20 RSS categories, 31 panels, tech HQs, cloud regions, startup hubs
 - [Finance Monitor](https://finance.cosmicmeta.ai): Global markets, trading, central banks, Gulf FDI — ~18 RSS categories, 30 panels, stock exchanges, central banks, Gulf investments
 

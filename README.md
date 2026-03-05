@@ -10,17 +10,17 @@
 [![Latest release](https://img.shields.io/github/v/release/koala73/worldmonitor?style=flat)](https://github.com/koala73/worldmonitor/releases/latest)
 
 <p align="center">
-  <a href="https://cosmicmeta.ai"><img src="https://img.shields.io/badge/Web_App-cosmicmeta.ai-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web App"></a>&nbsp;
+  <a href="https://monitor.cosmicmeta.ai"><img src="https://img.shields.io/badge/Web_App-cosmicmeta.ai-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web App"></a>&nbsp;
   <a href="https://tech.cosmicmeta.ai"><img src="https://img.shields.io/badge/Tech_Variant-tech.cosmicmeta.ai-0891b2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tech Variant"></a>&nbsp;
   <a href="https://finance.cosmicmeta.ai"><img src="https://img.shields.io/badge/Finance_Variant-finance.cosmicmeta.ai-059669?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Finance Variant"></a>&nbsp;
   <a href="https://happy.cosmicmeta.ai"><img src="https://img.shields.io/badge/Happy_Variant-happy.cosmicmeta.ai-f59e0b?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Happy Variant"></a>
 </p>
 
 <p align="center">
-  <a href="https://cosmicmeta.ai/api/download?platform=windows-exe"><img src="https://img.shields.io/badge/Download-Windows_(.exe)-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows"></a>&nbsp;
-  <a href="https://cosmicmeta.ai/api/download?platform=macos-arm64"><img src="https://img.shields.io/badge/Download-macOS_Apple_Silicon-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS ARM"></a>&nbsp;
-  <a href="https://cosmicmeta.ai/api/download?platform=macos-x64"><img src="https://img.shields.io/badge/Download-macOS_Intel-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel"></a>&nbsp;
-  <a href="https://cosmicmeta.ai/api/download?platform=linux-appimage"><img src="https://img.shields.io/badge/Download-Linux_(.AppImage)-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Download Linux"></a>
+  <a href="https://monitor.cosmicmeta.ai/api/download?platform=windows-exe"><img src="https://img.shields.io/badge/Download-Windows_(.exe)-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows"></a>&nbsp;
+  <a href="https://monitor.cosmicmeta.ai/api/download?platform=macos-arm64"><img src="https://img.shields.io/badge/Download-macOS_Apple_Silicon-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS ARM"></a>&nbsp;
+  <a href="https://monitor.cosmicmeta.ai/api/download?platform=macos-x64"><img src="https://img.shields.io/badge/Download-macOS_Intel-555555?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS Intel"></a>&nbsp;
+  <a href="https://monitor.cosmicmeta.ai/api/download?platform=linux-appimage"><img src="https://img.shields.io/badge/Download-Linux_(.AppImage)-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Download Linux"></a>
 </p>
 
 <p align="center">
@@ -55,7 +55,7 @@
 
 | Variant             | URL                                                          | Focus                                            |
 | ------------------- | ------------------------------------------------------------ | ------------------------------------------------ |
-| **World Monitor**   | [cosmicmeta.ai](https://cosmicmeta.ai)                 | Geopolitics, military, conflicts, infrastructure |
+| **World Monitor**   | [cosmicmeta.ai](https://monitor.cosmicmeta.ai)                 | Geopolitics, military, conflicts, infrastructure |
 | **Tech Monitor**    | [tech.cosmicmeta.ai](https://tech.cosmicmeta.ai)       | Startups, AI/ML, cloud, cybersecurity            |
 | **Finance Monitor** | [finance.cosmicmeta.ai](https://finance.cosmicmeta.ai) | Global markets, trading, central banks, Gulf FDI |
 | **Happy Monitor**   | [happy.cosmicmeta.ai](https://happy.cosmicmeta.ai)     | Good news, positive trends, uplifting stories    |
@@ -2222,7 +2222,7 @@ If you discover a vulnerability, please see our [Security Policy](./SECURITY.md)
 ---
 
 <p align="center">
-  <a href="https://cosmicmeta.ai">cosmicmeta.ai</a> &nbsp;·&nbsp;
+  <a href="https://monitor.cosmicmeta.ai">cosmicmeta.ai</a> &nbsp;·&nbsp;
   <a href="https://tech.cosmicmeta.ai">tech.cosmicmeta.ai</a> &nbsp;·&nbsp;
   <a href="https://finance.cosmicmeta.ai">finance.cosmicmeta.ai</a>
 </p>
