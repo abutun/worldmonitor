@@ -469,7 +469,7 @@ export class UnifiedSettings {
     `;
     // Community section
     html += `<div class="ai-flow-section-label">${t('components.community.sectionLabel')}</div>`;
-    html += `<a href="https://github.com/abutun/worldmonitor/discussions/94" target="_blank" rel="noopener" class="us-discussion-link">
+    html += `<a href="https://github.com/abutun/worldmonitor/discussions/1" target="_blank" rel="noopener" class="us-discussion-link">
       <span class="us-discussion-dot"></span>
       <span>${t('components.community.joinDiscussion')}</span>
     </a>`;
