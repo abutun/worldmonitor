@@ -135,8 +135,8 @@ Eight regex patterns control access:
 
 | # | Pattern | Matches |
 |---|---------|---------|
-| 1 | `worldmonitor\.app$` | `https://cosmicmeta.ai` |
-| 2 | `\.worldmonitor\.app$` | `https://*.cosmicmeta.ai` |
+| 1 | `cosmicmeta\.ai$` | `https://cosmicmeta.ai` |
+| 2 | `\.cosmicmeta\.ai$` | `https://*.cosmicmeta.ai` |
 | 3 | `\.vercel\.app$` | Vercel preview deploys |
 | 4 | `localhost(:\d+)?$` | `http://localhost:*` |
 | 5 | `127\.0\.0\.1(:\d+)?$` | IPv4 loopback |

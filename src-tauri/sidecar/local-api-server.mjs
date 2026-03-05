@@ -524,8 +524,8 @@ const SIDECAR_ALLOWED_ORIGINS = [
   /^https?:\/\/tauri\.localhost(:\d+)?$/,
   // Only allow exact domain or single-level subdomains (e.g. preview-xyz.cosmicmeta.ai).
   // The previous (.*\.)? pattern was overly broad. Anchored to prevent spoofing
-  // via domains like worldmonitorEVIL.vercel.app.
-  /^https:\/\/([a-z0-9-]+\.)?worldmonitor\.app$/,
+  // via domains like cosmicmetaEVIL.vercel.app.
+  /^https:\/\/([a-z0-9-]+\.)?cosmicmeta\.ai$/,
 ];
 
 function getSidecarCorsOrigin(req) {
