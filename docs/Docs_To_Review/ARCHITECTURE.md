@@ -106,9 +106,9 @@ World Monitor ships as three product variants from a single codebase. Each varia
 
 | Variant | Domain | Focus |
 |---|---|---|
-| `full` | worldmonitor.app | Geopolitics, military, OSINT, conflicts, markets |
-| `tech` | tech.worldmonitor.app | AI/ML, startups, cybersecurity, developer tools |
-| `finance` | finance.worldmonitor.app | Markets, trading, central banks, macro indicators |
+| `full` | cosmicmeta.ai | Geopolitics, military, OSINT, conflicts, markets |
+| `tech` | tech.cosmicmeta.ai | AI/ML, startups, cybersecurity, developer tools |
+| `finance` | finance.cosmicmeta.ai | Markets, trading, central banks, macro indicators |
 
 ### Variant Resolution
 

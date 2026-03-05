@@ -404,10 +404,10 @@ export class EventHandlerManager implements AppModule {
             window.location.reload();
           } else {
             const hosts: Record<string, string> = {
-              full: 'https://worldmonitor.app',
-              tech: 'https://tech.worldmonitor.app',
-              finance: 'https://finance.worldmonitor.app',
-              happy: 'https://happy.worldmonitor.app',
+              full: 'https://cosmicmeta.ai',
+              tech: 'https://tech.cosmicmeta.ai',
+              finance: 'https://finance.cosmicmeta.ai',
+              happy: 'https://happy.cosmicmeta.ai',
             };
             if (hosts[variant]) window.location.href = hosts[variant];
           }

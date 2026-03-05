@@ -166,7 +166,7 @@ All notable changes to World Monitor are documented here.
 ### Added
 
 - **Edge caching**: Complete Cloudflare edge cache tier coverage with degraded-response policy (#484)
-- **Edge caching**: Cloudflare edge caching for proxy.worldmonitor.app (#478) and api.worldmonitor.app (#471)
+- **Edge caching**: Cloudflare edge caching for proxy.cosmicmeta.ai (#478) and api.cosmicmeta.ai (#471)
 - **Edge caching**: Tiered edge Cache-Control aligned to upstream TTLs (#474)
 - **API migration**: Convert 52 API endpoints from POST to GET for edge caching (#468)
 - **Gateway**: Configurable VITE_WS_API_URL + harden POST-to-GET shim (#480)
@@ -382,7 +382,7 @@ All notable changes to World Monitor are documented here.
 
 ### Added
 
-- **Finance variant**: Added a dedicated market-first variant (`finance.worldmonitor.app`) with finance/trading-focused feeds, panels, and map defaults
+- **Finance variant**: Added a dedicated market-first variant (`finance.cosmicmeta.ai`) with finance/trading-focused feeds, panels, and map defaults
 - **Finance desktop profile**: Added finance-specific desktop config and build profile for Tauri packaging
 
 ### Changed
